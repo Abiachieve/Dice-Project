@@ -1,0 +1,77 @@
+body{
+  background-color: rgb(240, 236, 243);
+}
+.dice {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-color: rgb(187, 171, 152);
+  margin-left: 570px;
+  border-radius: 7px;
+  border: 2px solid black;
+  align-items: center;
+
+  background-size: cover;
+}
+p{
+  color: green;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+}
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}  
+
+.player1{
+  float: left;
+  margin-left: 100px;
+}
+
+.player2{
+  float: right;
+  margin-right: 40px;
+}
+#player1Button{
+  border: 2px solid rgb(20, 129, 62);
+  border-radius: 5px;
+  background-color: rgb(20, 129, 62);
+  width: 200px;
+  height: 40px;
+  margin-left: 40px;
+}
+
+#player2Button{
+  border: 2px solid rgb(20, 129, 62);
+
+  border-radius: 5px;
+  background-color: rgb(20, 129, 62);
+  width: 200px;
+  height: 40px;
+  float:right;
+  margin-right: 40px;
+}
+
+#reset{
+  border: 2px solid rgb(170, 110, 110);
+  border-radius: 5px;
+  background-color: rgb(179, 98, 154);
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  margin-left: 300px;
+}
+
+#player1Score{
+  font-size: 45px;
+}
+
+#player2Score{
+  font-size: 45px;
+}
